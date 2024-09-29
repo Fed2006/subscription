@@ -1,0 +1,65 @@
+.navbar{
+    background: skyblue;
+    color: blue;
+}
+
+.nav-item{
+    color:blue;
+}
+
+#cart{
+    width: 25px;
+    height: 20px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex:31%;
+    max-width:31%;
+    height:400px;
+    border: 5px solid blue;
+    background-image: linear-gradient(to bottom right, skyblue, darkblue);
+    margin: 10px;
+    border-radius: 20px
+
+}
+
+@media screen and (max-width: 800px){
+    .column{
+        flex:66%;
+        max-width:66%;
+        
+    }
+}
+
+@media screen and (max-width: 550px){
+    .column{
+        flex:100%;
+        max-width:100%;
+       
+    }
+}
+
+p{
+    color:black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.price{
+    color:blue;
+    font-size: 30px;
+    text-align: center;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+}
+img{
+    width: 80px;
+    height: 60px;
+}
